@@ -11560,9 +11560,4 @@ spawn(function()
     end)
 end)
 
-
- M:AddToggle({
-        Name = "@ytnhatminh"
-        Save = true
-
 OrionLib:Init()
