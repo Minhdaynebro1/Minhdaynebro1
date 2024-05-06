@@ -2503,12 +2503,12 @@ end)
 ---
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "『𝐕𝐍』『𝐖𝐎𝐑𝐋𝐃』HUB", HidePremium = true, IntroText = "🔰Make ᗷY🔰 @YT NHAT MINH", SaveConfig = true, ConfigFolder = "VN WORLD HUB"})
+local Window = OrionLib:MakeWindow({Name = "『VN』『WORLD』HUB", HidePremium = true, IntroText = "🔰Make ᗷY🔰 @YT NHAT MINH", SaveConfig = true, ConfigFolder = "VN WORLD HUB"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "webhook🟢",
     Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
+    PremiumOnly = true
 })
 
 local M = Window:MakeTab({
