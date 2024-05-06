@@ -2503,95 +2503,95 @@ end)
 ---
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "VN WORLD", HidePremium = false, IntroText = "Hello Bạn Tới Script Mình", SaveConfig = true, ConfigFolder = "VN WORLD HUB"})
+local Window = OrionLib:MakeWindow({Name = "『𝐕𝐍』『𝐖𝐎𝐑𝐋𝐃』HUB", HidePremium = true, IntroText = "🔰Make ᗷY🔰 @YT NHAT MINH", SaveConfig = true, ConfigFolder = "VN WORLD HUB"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
-    Name = "webhook",
+    Name = "webhook🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "main",
+    Name = "main🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
-    Name = "settings",
+    Name = "settings🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "items",
+    Name = "items🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
-    Name = "stat",
+    Name = "stat🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
-    Name = "esp",
+    Name = "esp🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
-    Name = "raid",
+    Name = "raid🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
-    Name = "player",
+    Name = "player🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
-    Name = "teleport",
+    Name = "teleport🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
-    Name = "webhook sever",
+    Name = "webhook sever🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
-    Name = "fruits",
+    Name = "fruits🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
-    Name = "race V4",
+    Name = "race V4🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
-    Name = "shop",
+    Name = "shop🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
-    Name = "more",
+    Name = "more🟢",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 -----Label--------------------
 local Section = W:AddSection({
-    Name = "Status"
+    Name = "Status🟢"
 })
 
 local locallv = W:AddLabel("Level")
