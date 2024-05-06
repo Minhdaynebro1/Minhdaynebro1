@@ -2503,7 +2503,7 @@ end)
 ---
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "banana hub", HidePremium = false, IntroText = "banana hub", SaveConfig = true, ConfigFolder = "banana hub"})
+local Window = OrionLib:MakeWindow({Name = "VN WORLD", HidePremium = false, IntroText = "banana hub", SaveConfig = true, ConfigFolder = "VN WORLD HUB"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "webhook",
@@ -4328,7 +4328,7 @@ IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Tự động Dual Curset Katana[Not Work]"
+    Name = "Tự động Dual Curset Katana Bản Test[Not Work]"
 })
 
 IQ:AddToggle({
@@ -5761,7 +5761,7 @@ local Section = SV:AddSection({
         SV:AddButton({
             Name = "vào máy chủ đã dán id",
             Callback = function()
-                _G.AutoRejoin = false
+                _G.AutoRejoin = true
                 game:GetService("TeleportService"):TeleportToPlaceInstance(game.placeId,_G.Job, game.Players.LocalPlayer)
               end    
         })
@@ -5776,7 +5776,7 @@ local Section = SV:AddSection({
         SV:AddButton({
             Name = "Chuyển sv",
             Callback = function()
-                _G.AutoRejoin = false
+                _G.AutoRejoin = true
                 Hop()
               end    
         })
@@ -5791,7 +5791,7 @@ local Section = SV:AddSection({
         SV:AddButton({
             Name = "chuyển sv ít người",
             Callback = function()
-                _G.AutoRejoin = false
+                _G.AutoRejoin = true
                 getgenv().AutoTeleport = true
                 getgenv().DontTeleportTheSameNumber = true 
                 getgenv().CopytoClipboard = false
@@ -6665,7 +6665,7 @@ spawn(function()
     while wait(.1) do
         if LockLevel then
             if game.Players.localPlayer.Data.Level.Value >= LockLevelValue then
-                game.Players.localPlayer:Kick("Lock Level : Done[Đúng Level nói rồi!]")
+                game.Players.localPlayer:Kick("Lock Level : Done[Đúng Level nói rồi Bạn Ơi :3!]")
             end
         end
     end
